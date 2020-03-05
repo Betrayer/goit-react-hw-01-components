@@ -1,0 +1,16 @@
+/* .ProfileContainerSmall {
+  width: 600px;
+  border: 2px solid red;
+  padding: 10px;
+  background-color: green;
+}
+
+.ProfileContainerMedium {
+  composes: ProfileContainerSmall;
+  width: 900px;
+  background-color: blue;
+}
+
+.image {
+  width: 100%;
+} */
