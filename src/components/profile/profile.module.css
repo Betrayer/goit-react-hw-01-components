@@ -1,16 +1,51 @@
-/* .ProfileContainerSmall {
-  width: 600px;
-  border: 2px solid red;
+.profile {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  border: 1px solid rgb(255, 163, 26);
   padding: 10px;
-  background-color: green;
+  background-color: rgb(41, 41, 41);
 }
 
-.ProfileContainerMedium {
-  composes: ProfileContainerSmall;
-  width: 900px;
-  background-color: blue;
+.label {
+  color: rgb(255, 163, 26);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 
-.image {
-  width: 100%;
-} */
+.quantity {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.stats,
+.tag {
+  color: rgb(255, 163, 26);
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+
+.name {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.location {
+  color: rgb(128, 128, 128);
+}
+
+.name,
+.tag,
+.location {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(27, 27, 27);
+}

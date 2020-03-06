@@ -1,16 +1,17 @@
 import React from "react";
 import statistics from "../../statistical-data.json";
 import StatisticsItem from "./statisticsItem/StatisticsItem";
+import styles from "./statistics.module.css";
 
 const Statistics = () => {
   return (
-    <section className="statistics">
-      <h2 className="title">Upload stats</h2>
+    <section className={styles.statistics}>
+      <h2 className={styles.title}>Upload stats</h2>
 
-      <ul className="stat-list">
-        {statistics.map(statistics => 
+      <ul className={styles.statList}>
+        {statistics.map(statistics => (
           <StatisticsItem statistics={statistics} key={statistics.id} />
-        )}
+        ))}
       </ul>
     </section>
   );
